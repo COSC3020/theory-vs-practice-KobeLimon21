@@ -25,8 +25,8 @@ Using this height of 13.3 we can divide it by 10 which is about the height for 1
 13/10 * 5 = 6.65 seconds 
 
 - One reason could be a memory leak, where if the computer has ran out of memory it could start to make inefficient decisions to be make up for the leak. This could also be the result of a bad implementation that doesn't account for the memory efficiently. 
-- The binary tree could be inbalanced, which would then result in a huge time inefficiency because we are not having to traverse down each and every node for specific elements.
-- Bad implemenations could be a result of the disparity within time, if we are adding conditions on top of what the asymptotic analysis accounted then it will indefinitely take much longer. 
+- The binary tree could be inbalanced, which would then result in a huge time inefficiency because we are not having to traverse down each and every node for specific elements. This is a result of the tree being skewed heavily, where in the worst case it could start to look like a linked list. 
+- Bad implemenations could be a result of the disparity within time, if we are adding conditions on top of what the asymptotic analysis accounted then it will indefinitely take much longer. These conditions will stack the time taken for them to be used as the size grows, which wouldn't have as much of an impact as it does on a smaller input due to the increased workload that would be accounted for with 10000 elements.
 
 
 Sources : 
